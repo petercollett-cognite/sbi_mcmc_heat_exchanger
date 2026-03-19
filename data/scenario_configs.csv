@@ -1,0 +1,7 @@
+scenario,label,T,tau,z_mode,mode_name,beta_f,beta_l,lambda_rate
+scenario_1_normal_operation,1 Normal Operation,100,18.0,1,fouling,0.005,0.0004000000000000001,5.0
+scenario_2_batch_shutdown,2 Batch Shutdown,100,18.0,1,fouling,0.03,0.0004000000000000001,0.5
+scenario_3_boiler_feedwater,3 Boiler Feedwater,100,18.0,1,fouling,0.05,0.0004000000000000001,3.0
+scenario_4_mild_tube_leak,4 Mild Tube Leak,100,18.0,2,leak,0.014999999999999998,0.0005,2.0
+scenario_5_severe_tube_leak,5 Severe Tube Leak,100,18.0,2,leak,0.014999999999999998,0.001,2.0
+scenario_6_no_failure,6 No Failure,100,18.0,0,none,0.014999999999999998,0.0004000000000000001,2.0

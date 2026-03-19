@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "sbi-mcmc-heat-exchanger"
+version = "0.1.0"
+description = "Fast Bayesian inference for equipment condition monitoring via simulation-based inference: applications to heat exchanger health"
+authors = [
+    "Alexander Johannes Stasik",
+    "Simone Casolo",
+    "Peter Collett",
+    "Signe Riemer-Sørensen",
+]
+readme = "README.md"
+packages = [{include = "hx_models", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26"
+matplotlib = "^3.8"
+scipy = "^1.11"
+pandas = "^2.1"
+arviz = "^0.18"
+python-ternary = "^1.0"
+properscoring = "^0.1"
+
+# JAX ecosystem
+jax = "^0.4"
+jaxlib = "^0.4"
+numpyro = "^0.19.0"
+
+# PyTorch ecosystem
+torch = "^2.1"
+sbi = "^0.23"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0"
+ipykernel = "^6.27"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

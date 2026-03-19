@@ -1,0 +1,50 @@
+{
+  "scenario_1_normal_operation": {
+    "mcmc_crps_tau": 3.9294074681644444,
+    "sbi_crps_tau": 4.596605273859859,
+    "mcmc_classification_acc": 1.0,
+    "sbi_classification_acc": 1.0,
+    "mcmc_time_per_obs": 171.93727064943315,
+    "sbi_time_per_obs": 0.1160927677154541
+  },
+  "scenario_2_batch_shutdown": {
+    "mcmc_crps_tau": 3.517187084553838,
+    "sbi_crps_tau": 4.928451505348563,
+    "mcmc_classification_acc": 1.0,
+    "sbi_classification_acc": 1.0,
+    "mcmc_time_per_obs": 167.1218172326088,
+    "sbi_time_per_obs": 0.11864755249023437
+  },
+  "scenario_3_boiler_feedwater": {
+    "mcmc_crps_tau": 1.1543214784450528,
+    "sbi_crps_tau": 2.203606117553353,
+    "mcmc_classification_acc": 1.0,
+    "sbi_classification_acc": 1.0,
+    "mcmc_time_per_obs": 146.0526542696953,
+    "sbi_time_per_obs": 0.1201842942237854
+  },
+  "scenario_4_mild_tube_leak": {
+    "mcmc_crps_tau": 2.2608335191990134,
+    "sbi_crps_tau": 2.8747858529664283,
+    "mcmc_classification_acc": 0.998,
+    "sbi_classification_acc": 1.0,
+    "mcmc_time_per_obs": 144.85261648130418,
+    "sbi_time_per_obs": 0.12486707258224487
+  },
+  "scenario_5_severe_tube_leak": {
+    "mcmc_crps_tau": 1.643131937546611,
+    "sbi_crps_tau": 2.5467822251101735,
+    "mcmc_classification_acc": 0.996,
+    "sbi_classification_acc": 1.0,
+    "mcmc_time_per_obs": 139.11591175031663,
+    "sbi_time_per_obs": 0.11842633819580078
+  },
+  "scenario_6_no_failure": {
+    "mcmc_crps_tau": 24.54030440763807,
+    "sbi_crps_tau": 28.09653179205692,
+    "mcmc_classification_acc": 0.982,
+    "sbi_classification_acc": 0.97,
+    "mcmc_time_per_obs": 37.02325234413147,
+    "sbi_time_per_obs": 0.12855695104599
+  }
+}
